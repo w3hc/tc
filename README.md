@@ -1,6 +1,8 @@
 # TC
 
-TC stands for 'Town Crier'. It's a notification system for governor-based DAOs. It's using Tally API.
+TC is a notification system for governor-based DAOs. It _will_ be using Tally API.
+
+The project is developed as part of the [DAO Global Hackathon 2023](https://daoglobalhackathon.com/).
 
 ## Install 
 
@@ -28,7 +30,7 @@ npm run build
 npm run start
 ```
 
-## 🐋 Docker
+## Docker
 
 To start the app:
 
