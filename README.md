@@ -1,59 +1,26 @@
-<div>
-  <p align="center">
-    <a href="https://discordx.js.org" target="_blank" rel="nofollow">
-      <img src="https://discordx.js.org/discordx.svg" width="546" />
-    </a>
-  </p>
-  <p align="center">
-    <a href="https://discordx.js.org/discord"
-      ><img
-        src="https://img.shields.io/discord/874802018361950248?color=5865F2&logo=discord&logoColor=white"
-        alt="Discord server"
-    /></a>
-    <a href="https://www.npmjs.com/package/discordx"
-      ><img
-        src="https://img.shields.io/npm/v/discordx.svg?maxAge=3600"
-        alt="NPM version"
-    /></a>
-    <a href="https://www.npmjs.com/package/discordx"
-      ><img
-        src="https://img.shields.io/npm/dt/discordx.svg?maxAge=3600"
-        alt="NPM downloads"
-    /></a>
-    <a href="https://github.com/discordx-ts/discordx/actions"
-      ><img
-        src="https://github.com/discordx-ts/discordx/workflows/Build/badge.svg"
-        alt="Build status"
-    /></a>
-    <a href="https://www.paypal.me/vijayxmeena"
-      ><img
-        src="https://img.shields.io/badge/donate-paypal-F96854.svg"
-        alt="paypal"
-    /></a>
-  </p>
-  <p align="center">
-    <b> Create a discord bot with TypeScript and Decorators! </b>
-  </p>
-</div>
+# TC
 
-# 📖 Introduction
+TC stands for 'Town Crier'. It's a notification system for governor-based DAOs. It's using Tally API.
 
-A starter template equipped with several interaction commands and one event.
-
-# 🏗 Development
+## Install 
 
 ```
-npm install
+npm i
+```
+
+## Run 
+
+```
 npm run dev
 ```
 
-If you want to use [Nodemon](https://nodemon.io/) to auto-reload while in development:
+or with auto-reload (thanks to [Nodemon](https://nodemon.io/)):
 
 ```
 npm run watch
 ```
 
-# 💻 Production
+## Build
 
 ```
 npm install --production
@@ -61,15 +28,15 @@ npm run build
 npm run start
 ```
 
-# 🐋 Docker
+## 🐋 Docker
 
-To start your application:
+To start the app:
 
 ```
 docker-compose up -d
 ```
 
-To shut down your application:
+To shut down the app:
 
 ```
 docker-compose down
@@ -81,19 +48,14 @@ To view your application's logs:
 docker-compose logs
 ```
 
-For the full command list please view the [Docker Documentation](https://docs.docker.com/engine/reference/commandline/cli/).
+## Docs
 
-# 📜 Documentation
-
+- [Tally API](https://docs.tally.xyz/tally-api)
+- [Discord bots development](https://discord.com/developers/docs/intro)
+- [Docker Documentation](https://docs.docker.com/engine/reference/commandline/cli/)
 - [discordx.js.org](https://discordx.js.org)
 - [Tutorials (dev.to)](https://dev.to/samarmeena/series/14317)
 
-# ☎️ Need help?
-
-- [Check frequently asked questions](https://discordx.js.org/docs/faq)
-- [Check examples](https://github.com/discordx-ts/discordx/tree/main/packages/discordx/examples)
-- Ask in the community [Discord server](https://discordx.js.org/discord)
-
-# 💖 Thank you
+# Credits
 
 You can support [discordx](https://www.npmjs.com/package/discordx) by giving it a [GitHub](https://github.com/discordx-ts/discordx) star.
